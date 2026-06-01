@@ -21,6 +21,14 @@ h1, h2{
     font-family: "DM Serif Display", serif;
     color:#184f63;
 }
+.custom-button{
+    background-color: #1f7798 ;
+    border-color: #1f7798;
+}
+.custom-button:hover{
+     background-color: #1d6d8a ;
+    border-color: #1d6d8a;
+}
 #about {
     background-color:white;
 }
