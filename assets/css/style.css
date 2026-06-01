@@ -13,7 +13,10 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color:#a4c2d1;
 }
-
+.sharp-corners,
+.sharp-corners *{
+    border-radius: 0;
+}
 h1, h2{
     font-family: "DM Serif Display", serif;
     color:#184f63;
@@ -24,6 +27,16 @@ h1, h2{
 #portfolio {
     background-color:#dbdcde; 
 }
+#portfolio .card-title{
+    color:#1f7798;
+    font-size: 1.2rem;
+}
+#portfolio .btn:hover{
+    background-color: #1f7798;
+}
+#portfolio .card-text{
+    min-height:120px;
+}
 #contact {
     background-color:white;
 }
@@ -33,4 +46,9 @@ h1, h2{
     background-size: cover;
     background-position: center top;
     padding: 15% 5%;
+}
+@media screen and (min-width:1200px) {
+    #portfolio .card-text{
+        min-height: auto;
+    }
 }
